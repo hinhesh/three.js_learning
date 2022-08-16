@@ -1,0 +1,24 @@
+Pb : 
+- Loading Tree.js with a script is too heavy 
+Res : We need to run a server to emulate a website for security reasons
+
+__> Bundler : A tool in which you send JavaScript, CSS, HTML , images, TypeScript etc
+ & used as a local server, manage dependencies
+--> > We use webpack as a bundle : https://webpack.js.org/
+
+1) Install Node.js
+2) In the starter file run : 
+	npm install (it will install the dependencies in the package.json )
+then npm run dev
+Your browser should open with an URL Looking like http://192.168.1.1:8080
+
+*npm is a dependency manager it will download the depencies you need set inside the package.json
+We run npm install once, then we can npm run dev each time we use
+To build your website with npm run build
+
+Working file are inside src
+
+ Note : 
+- script.js is the root file and it will be added to the HTML automatically no need to 
+Insert in script
+- style.css is loaded through script.js
