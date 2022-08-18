@@ -7,6 +7,8 @@ __> Bundler : A tool in which you send JavaScript, CSS, HTML , images, TypeScrip
 --> > We use webpack as a bundle : https://webpack.js.org/
 
 1) Install Node.js
+Unzip 04webpack
+Replace the src by ours
 2) In the starter file run : 
 	npm install (it will install the dependencies in the package.json )
 then npm run dev

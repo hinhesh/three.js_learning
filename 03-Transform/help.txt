@@ -1,0 +1,7 @@
+-> Animation 
+ -> function tick
+-> call the function for the next frame with  window.requestAnimationFrame(tick)
+-> Use Date.now or THREE.Clock
+
+Or use of library GSAP
+	1) npm install --save gsap@3.5.1
