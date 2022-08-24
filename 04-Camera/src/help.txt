@@ -1,0 +1,11 @@
+--> CAMERA
+
+- Class : abstract class ->not supposed to use it directly
+
+__> Array camera render the scene from multiple cameras on specific areas of the render
+__> StereoCamera render the scene through two cameras that mimic the eyes --> VR headset, create feeling of profondeur
+__> cuber camera : 6 render, reflection, refraction, shadow
+__>Ortographic Camera : Create a render without perspective. The size of an object 
+Dosent t depend of profondeur
+__> Perspective Camera : parameters (FOV, image ratio)
+__> orthographic camera : there is no perspective
