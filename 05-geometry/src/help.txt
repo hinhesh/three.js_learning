@@ -9,3 +9,18 @@ __>Ortographic Camera : Create a render without perspective. The size of an obje
 Dosent t depend of profondeur
 __> Perspective Camera : parameters (FOV, image ratio)
 __> orthographic camera : there is no perspective
+
+
+--> Textures
+1) COLOR / ALBEDO : most simple one, applied on the geometry
+2) ALPHA : Grayscale image (white visible) black not visible
+3) Height / displacement : grayscale image and it will move the vertices (need enough subdivision on the plane)
+4) Normal : add details (mostly about light), doesn't need subdivision, vertices won't move, lure the light about the face orientation
+5) Ambiant occlusion : grayscale image , faking shadows
+6) MetalnessGrayscale image : white is metallic black non metallic, create reflection
+7) Roughness : grayscale image, white is rough, black is smooth, mostly for light dissipation
+
+PBR Principles : physically based rendering
+- Also that follow real life (physical ex : light bouncing)
+- goal : to get realistic image
+
