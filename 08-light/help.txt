@@ -1,0 +1,16 @@
+Lights
+-> Ambient Light apply rays from every direction --> uniforme light. Allow to simulate light bouncing
+--> != direction light -> focus on the center of the scene, distance doesn't matter without shadow 
+--> hemisphere light. One light on the top and an other light from the bottom
+
+-->point light. We can control the fade distance
+
+->rect area light : simulate a rectangle shape light
+-> spotlight : simulate a round shape light
+
+Perf
+Ambient/hemisphere < direction/point < spotlight/rect area light
+
+You can bake lights on texture --> cool for static scene
+
+LightHelpers for position
