@@ -1,0 +1,6 @@
+SHADOW
+- Works with the shadow map 
+- only point light directional light and spotlight support shadows
+Opti : 
+- control the depth / size / of the shadow map for the light
+- + Different algorithm apply to the shadow map : basicShadowMap, PCDShadowMap, PCFSoftShadowMap (most used), VSMShadowMap
